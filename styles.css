@@ -1,0 +1,50 @@
+:root {
+    --background-color: #181410;
+    --text-decoration-color: #EFECE7;
+    --text-decoration-color: #191825;
+    --accent: #629293;
+}
+
+/*navbar*/
+.navbar .container {
+    overflow: hidden;
+}
+
+.navbar a {
+    color: var(--text-decoration-color);
+}
+
+.navbar {
+    background-color: #5260ac;
+    color: #827bd1;
+    overflow: auto;
+}
+
+#navbar .logo {
+    padding-top: 12px;
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    color: rgb(116, 21, 21);
+    background-color: #1b2432;
+}
